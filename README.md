@@ -20,7 +20,7 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
   git clone git@github.com:FabioMarturanoJr/cookmaster.git
 ```
 
-...
+estou desenvolvendo o readme...
 
 ---
 
