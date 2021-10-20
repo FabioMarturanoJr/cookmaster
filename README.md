@@ -100,8 +100,3 @@ espera no body:
 }
 ```
   `DELETE/recipes/ID` excluir uma receita, valida token JWT 
-
----
-
-## Link para o deploy:
-logo logo estará no ar...
