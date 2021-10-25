@@ -48,7 +48,7 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
 
 ## Rotas disponiveis
 
-`POST/users` cadastra usuário
+### `POST/users` cadastra usuário
 
 espera no body:
 ```javascript
@@ -58,8 +58,8 @@ espera no body:
   "password": "passwordUser",
 }
 ```
-  
-  `POST/login` realiza login e retorna token JWT
+
+### `POST/login` realiza login e retorna token JWT
 
 espera no body:
 ```javascript
@@ -69,11 +69,11 @@ espera no body:
 }
 ```
 
-  `GET/recipes` retorna todas as receitas
+### `GET/recipes` retorna todas as receitas
   
-  `GET/recipes/ID` retorna uma receita especifica
+### `GET/recipes/ID` retorna uma receita especifica
   
-  `PUT/recipes/ID` atualiza receita especifica, valida token JWT 
+### `PUT/recipes/ID` atualiza receita especifica, valida token JWT 
 
 espera no body:
 ```javascript
@@ -84,12 +84,12 @@ espera no body:
 }
 ```
 
-  `PUT/recipes/ID/image` cadastra imagem de receita ja existente, valida token JWT 
+### `PUT/recipes/ID/image` cadastra imagem de receita ja existente, valida token JWT 
 
 espera no body:
 form-data KEY `image` e tipo `jpeg`
 
-  `POST/recipes` cadastra uma receita, valida token JWT 
+### `POST/recipes` cadastra uma receita, valida token JWT 
 
 espera no body:
 ```javascript
@@ -99,4 +99,4 @@ espera no body:
   "preparation": "preparationteps",
 }
 ```
-  `DELETE/recipes/ID` excluir uma receita, valida token JWT 
+### `DELETE/recipes/ID` excluir uma receita, valida token JWT 
